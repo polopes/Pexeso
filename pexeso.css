@@ -71,7 +71,6 @@ p {
 	color: crimson;
 }
 
-/* Header section */
 #header {
 	position: fixed;
 	z-index: 1000;
@@ -196,9 +195,7 @@ p {
 #header .hamburger.active .bar::after {
 	top: 0;
 }
-/* End Header section */
 
-/* Hero Section */
 #hero {
 	background-image: url(./img/hero-bg.png);
 	background-size: cover;
@@ -262,7 +259,6 @@ p {
 	animation-delay: 2.5s;
 }
 
-/* End Hero Section */
 
 #services .services {
 	flex-direction: column;
@@ -379,7 +375,7 @@ p {
 	transform: scale(1.1);
 }
 #projects .project-img:hover:after {
-	opacity: 0; /* Reset opacity to 0 when hovering */
+	opacity: 0; 
   }
 .project-img {
 	height: 1px;
@@ -584,18 +580,18 @@ p {
 	}
 	#projects .project-img {
 		flex-basis: 50%;
-		display: flex; /* Ensure the container expands to fit its contents */
-		justify-content: center; /* Center the image horizontally */
-		align-items: center; /* Center the image vertically */
+		display: flex; 
+		justify-content: center; 
+		align-items: center; 
 		overflow: hidden;
 		position: relative;
 	  }
 	  
 	  #projects .project-img img {
-		max-width: 100%; /* Ensure the image does not exceed its container's width */
-		max-height: 100%; /* Ensure the image does not exceed its container's height */
-		width: auto; /* Ensure the image maintains its aspect ratio */
-		height: auto; /* Ensure the image maintains its aspect ratio */
+		max-width: 100%; 
+		max-height: 100%; 
+		width: auto; 
+		height: auto; 
 	  }
 	  
 	
